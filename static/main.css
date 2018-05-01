@@ -5,23 +5,36 @@ body {
 
 .container-narrow {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 85%;
 }
 
 .container-narrow > hr {
     margin: 40px 0 0 0;
 }
 
+.main_skill > hr{
+    height:1px;
+    border-top:1px solid #000
+    margin: 1px 0 0 0;
+}
+
 .jumbotron {
-    margin: 5px 0;
+    margin: 1px 0;
     text-align: center;
     background-color:white;
 }
 
 .jumbotron h1 {
-    font-size: 72px;
+    font-size: 36px;
     line-height: 1;
     font-weight: bold;
+}
+
+.intro{
+    font-size:17px;
+}
+.skills{
+    font-size:17px;
 }
 
 .jumbotron .btn {
@@ -38,9 +51,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Arvo', Georgia, Times, serif;
+    font-family: Helvetica,'Arvo', Georgia, Times, serif;
 }
 
 p, div {
-  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.info{
+    margin-top:1cm;
+}
+
+.color_red{
+    color:#a12;
+}
+
+.color_green{
+    color:#2a2;
 }
