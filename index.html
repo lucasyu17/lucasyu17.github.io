@@ -124,9 +124,9 @@ p, div {
                         &nbsp &nbsp Simulation tools greatly shorten the distance between theory and real world experiment.
                         These tools not only make the collection of large amount of data possible, but also create
                         platforms for efficient verification of algorithms. A good sim-to-real robotics system should
-                        consists of two sides: the most detailed robot model possible bridging the difference between the real-world
-                        dynamics and the one in simulation, and the most abstract high-level representation of the environment
-                        possible bridging the gap between the real-world perception and the one in simulation. My research goal
+                        consists of two sides: the detailed robot model bridging the difference between the real-world
+                        dynamics and the one in simulation, and the abstract high-level representation of the environment
+                        bridging the gap between the real-world perception and the one in simulation. My research goal
                         is to build detailed robots in simulator and come up with algorithms (Imitation Learning, RL, etc.) trained in simulators
                         which can be applied on real robots with less efforts possible.
                         <br>
@@ -161,12 +161,18 @@ p, div {
                         <br> &nbsp &nbsp Collaborative control strategies for multiple UAVs physically connected to a
                         payload via sphere joints. Modeling in ROS gazebo environment real world UAVs (Asctec Hummingbird)
                         based on open-source codes; Optimal polynomial trajectory generation; Collaborative distribution of
-                        payload accelerations using decentralized methods (consensus, MARL, etc).
+                        payload accelerations using decentralized methods (average-consensus, multi-agent reinforcement learning, etc).
                         <span class="color_red"> Sim-to-real transfer learning, representation of the environment </span>
                         <br>
-                        &nbsp &nbsp 
+                        &nbsp &nbsp Using depth-semantic features as the representation of the environment and the input to
+                        end-to-end neural network for local obstacle avoidance. Comparison of different types of representations
+                        of environment in navigation tasks, especially when human is in the task, trying to find the most appropriate
+                        input to the neural network in terms of task completion efficiency and social courtesy. RGBD camera noise studied,
+                        modeled, and added to the image data set before training, alleviating online computational pressure compared
+                        to online filtering.
                         <span class="color_red"> Swarm coverage algorithm based on description function </span>
                         <br>
+                        &nbsp &nbsp 
                         <span class="color_red"> State estimation and centralized architecture for swarm UAVs </span>
                     </p>
                 <br>
