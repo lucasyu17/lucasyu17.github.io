@@ -190,8 +190,8 @@ p1{ text-indent:2em;}
                         &nbsp &nbsp Using depth-semantic features as the representation of the environment and the input to
                         end-to-end neural network for local obstacle avoidance in indoor navigation tasks. Comparison of different
                         types of representations of environment in navigation tasks, especially when human is in the task, trying to find the most appropriate
-                        input to the neural network in terms of task completion efficiency and social courtesy. RGBD camera noise studied,
-                        modeled, and added to the image data set before training, alleviating online computational pressure compared
+                        input to the neural network in terms of task completion efficiency and the ability to react to moving obstacles in cluttered indoor environments.
+                        studied RGBD camera noise model, and added the model to the image data set before training, alleviating online computational pressure compared
                         to online filtering.
 
                         <br>
@@ -211,11 +211,12 @@ p1{ text-indent:2em;}
                     <img src="static/swarm_coverage.png"  width="237" height="147" style="margin-right:10px;float:left;"></img>
                     <img src="static/capa_swarm.png" width="220" height="137" style="margin-right:10px;float:left;"></img>
                 </p>
-                        &nbsp &nbsp Decentralized coverage algorithm studied where each agent, without communication among them and with
-                        information left behind at the target field where it has covered, can affect the overall coverage task. After the
-                        modeling of the coverage capability of each agent, Each agent acts according to the local information left by all
-                        the other agents. Specifically, agents align their velocity according to the direction of the less covered point possible
-                        in their neighbourhood. Difficulty lies in the solutions to the dead-lock situations and the efficiency of the coverage.
+                        &nbsp &nbsp Distributed coverage algorithm can be applied in many real world situations, such as surveillance and inspection.
+                        In this project, we describe the sensor capacity as a symmetrical smooth surface centered at the agent's position
+                        for each agent, and we use this description function method to calculate autonomously the control inputs for each agent at every time step.
+                        Each agent acts according to the local information left by all the other agents, together with their own sensor capability. Specifically, agents align their velocity according to the direction of the less covered point possible
+                        in their neighbourhood. Difficulty lies in the solutions to the dead-lock situations and the efficiency of the coverage. This work can serve as
+                        a modular for further usage in hierarchical decentralized coverage algorithms.
                         <br>
                         <br>
                         <br>
