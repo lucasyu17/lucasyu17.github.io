@@ -30,7 +30,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/collaborative_transportation/rotors_gazebo" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -56,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568701553114</updated>
       <workItem from="1569301179692" duration="1390000" />
-      <workItem from="1569480985334" duration="593000" />
+      <workItem from="1569480985334" duration="3700000" />
     </task>
     <servers />
   </component>
