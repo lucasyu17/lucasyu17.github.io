@@ -169,10 +169,13 @@ p1{ text-indent:2em;}
                         <img src="static/collaborative transportation.png" width="217" height="137" style="margin-right:10px;float:left;"></img>
                         <img src="static/trj.png" width="217" height="147" style="margin-right:10px;float:left;"></img>
                         </p>
-                        <br> &nbsp &nbsp Collaborative control strategies for multiple UAVs physically connected to a
-                        payload via sphere joints. Modeling in ROS gazebo environment real world UAVs (Asctec Hummingbird)
-                        based on open-source codes; Optimal polynomial trajectory generation; Collaborative distribution of
-                        payload accelerations using decentralized methods (average-consensus, multi-agent reinforcement learning, etc).
+                        <br> &nbsp &nbsp In this project we explored collaborative strategies for multiple UAVs physically connected to a
+                        payload via sphere joints. In this project we formulate the collaborative transportation problem as
+                        a hierarchical problem to tackle the issue: 1)the coupling of the dynamics of the payload and the UAVs;
+                        2)the high non-linearity of the UAV dynamics and 3)the decentralization of the strategies and its convergence.
+                        Real world UAVs (Asctec Hummingbird) are modeled in ROS gazebo environment based on open-source code;
+                        Optimal polynomial trajectories are generated for transportation in cluttered environments; Collaborative distribution of
+                        payload dynamics are deployed using decentralized methods (average-consensus, multi-agent reinforcement learning, etc).
                         <br>
                         <br>
                         <br>
@@ -187,11 +190,11 @@ p1{ text-indent:2em;}
                         <img src="static/simtoreal.png" width="217" height="137" style="margin-right:10px;float:left;"></img>
                         <img src="static/semantic.png" width="217" height="140" style="margin-right:10px;float:left;"></img>
                         </p>
-                        &nbsp &nbsp Using depth-semantic features as the representation of the environment and the input to
+                        &nbsp &nbsp In this project we use depth-semantic features as the representation of the environment and the input to
                         end-to-end neural network for local obstacle avoidance in indoor navigation tasks. Comparison of different
                         types of representations of environment in navigation tasks, especially when human is in the task, trying to find the most appropriate
-                        input to the neural network in terms of task completion efficiency and the ability to react to moving obstacles in cluttered indoor environments.
-                        studied RGBD camera noise model, and added the model to the image data set before training, alleviating online computational pressure compared
+                        input to the NN in terms of task completion efficiency and the ability to react to moving obstacles in cluttered indoor environments.
+                        We studied RGBD camera noise model, and added the model to the image data set before training, alleviating online computational complexity compared
                         to online filtering.
 
                         <br>
@@ -210,9 +213,10 @@ p1{ text-indent:2em;}
                     <img src="static/capa_swarm.png" width="220" height="137" style="margin-right:10px;float:left;"></img>
                 </p>
                         &nbsp &nbsp Distributed coverage algorithm can be applied in many real world situations, such as surveillance and inspection.
-                        In this project, we describe the sensor capacity as a symmetrical smooth surface centered at the agent's position
-                        for each agent, and we use this description function method to calculate autonomously the control inputs for each agent at every time step.
-                        Each agent acts according to the local information left by all the other agents, together with their own sensor capability. Specifically, agents align their velocity according to the direction of the less covered point possible
+                        In this project, we deployed a functional-based formulation of the distributed sensor coverage problem. We describe the sensor capacity as an
+                        isotropic bell-like surface centered at the agent's position for each agent, and we use this description function method to calculate autonomously the control inputs for each agent at every time step.
+                        Each agent acts according to the local information left by all the other agents, together with their own sensor capability.
+                        Specifically, agents align their velocity according to the direction of the less covered point possible
                         in their neighbourhood. Difficulty lies in the solutions to the dead-lock situations and the efficiency of the coverage. This work can serve as
                         a modular for further usage in hierarchical decentralized coverage algorithms.
                         <br>
@@ -227,11 +231,11 @@ p1{ text-indent:2em;}
                     <img src="static/swarm.png" width="207" height="127" style="margin-right:10px;float:left;"></img>
                     <img src="static/swarm_frame.png" width="227" height="127" style="margin-right:10px;float:left;"></img>
                 </p>
-                        Using motion capture system to estimate the state of a swarm of UAVs, applying control to each one in the
-                        team using centralized structure with ROS topic mechanism. Tried and compared with existing method using
-                        broadcasting as communication methods without hand-shaking process and package encoding methods to help solve
-                        the bandwidth limitation of the communication between the central node and the swarm. Implemented ICP algorithm
-                        as swarm state estimator.
+                        In this project we studied the nonlinear control and state estimation for UAVs and the swarm of UAVs.
+                        Using motion capture system to estimate the state of a swarm of UAVs, we apply a centralized framework to control UAVs
+                        with ROS topic mechanism. We explored several methods and compared ours with them.
+                        We deployed methods using broadcast communication techniques (without hand-shaking process) and package encoding methods to help solve
+                        the bandwidth limitation of the communication between the central node and the swarm.
                         <br>
 
                     </p>
