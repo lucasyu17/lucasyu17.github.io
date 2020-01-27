@@ -166,13 +166,13 @@ p1{ text-indent:2em;}
                     <p>
                         <b class="color_red">Aerial Collaborative Transportation using multiple UAVs </b>
                         <br>
-                        <!-- <img src="static/collaborative transportation.png" width="217" height="157" style="margin-right:10px;float:left;"></img> -->
+                        <img src="static/collaborative transportation.png" width="217" height="157" style="margin-right:10px;float:left;"></img>
                         
-                        <!-- <img src="static/trj.png" width="217" height="157" style="margin-right:10px;float:left;"></img> -->
+                        <img src="static/trj.png" width="217" height="157" style="margin-right:10px;float:left;"></img>
                         
                         <h3 class="post">
                             <center>
-                                <iframe width="720" height="480" src="https://www.youtube.com/embed/yftMnLYUaMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="480" height="360" src="https://www.youtube.com/embed/yftMnLYUaMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <!-- <iframe src="https://youtu.be/embed/yftMnLYUaMw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="80%" height="480" frameborder="0"></iframe> -->
                             </center>
                         </h3>
@@ -194,8 +194,8 @@ p1{ text-indent:2em;}
                         <b class="color_red"> Sim-to-real imitation learning and depth-semantics representation of the environment </b>
                 </p>
                 <!-- <p> -->
-                        <!-- <img src="static/simtoreal.png" width="217" height="140" style="margin-right:10px;float:left;"></img> -->
-                        <!-- <img src="static/semantic.png" width="217" height="140" style="margin-right:10px;float:left;"></img> -->
+                        <img src="static/simtoreal.png" width="217" height="140" style="margin-right:10px;float:left;"></img>
+                        <img src="static/semantic.png" width="217" height="140" style="margin-right:10px;float:left;"></img>
                         <!-- </p> -->
                         <br>
                         <!-- <img src="static/collaborative transportation.png" width="217" height="157" style="margin-right:10px;float:left;"></img> -->
@@ -216,8 +216,8 @@ p1{ text-indent:2em;}
                         We studied RGBD camera noise model, and added the model to the image data set before training, alleviating online computational complexity compared
                         to online filtering.
 
-                        <br>
-                        <b>video: </b><a href="https://www.youtube.com/watch?v=1lp417Y8Wb4">Sim to real imitation learning in robot navigation</a>
+                        <!-- <br> -->
+                        <!-- <b>video: </b><a href="https://www.youtube.com/watch?v=1lp417Y8Wb4">Sim to real imitation learning in robot navigation</a> -->
                         <br>
                         <b>publication: Learning to Navigate from Simulation via Spatial and Semantic Information Synthesis, preprint: <a href="https://arxiv.org/abs/1910.05758">arxiv</a></b>
                         <br>
@@ -225,36 +225,53 @@ p1{ text-indent:2em;}
                 <p class="intro">
                     <br>
 
-                        <span class="color_red"> Swarm coverage control based on description functions </span>
+                        <b class="color_red"> Swarm coverage control based on description functions </b>
                 </p>
-                <p class="intro">
+                <!-- <p class="intro"> -->
                     <img src="static/swarm_coverage.png"  width="237" height="157" style="margin-right:10px;float:left;"></img>
                     <img src="static/capa_swarm.png" width="220" height="157" style="margin-right:10px;float:left;"></img>
-                </p>
-                        &nbsp &nbsp Distributed coverage algorithm can be applied in many real world situations, such as surveillance and inspection.
-                        In this project, we deployed a functional-based formulation of the distributed sensor coverage problem. We describe the sensor capacity as an isotropic bell-like surface centered at the agent's position for each agent, and we use this description function method to calculate autonomously the control inputs for each agent at every time step.
-                        Each agent acts according to the local information left by all the other agents, together with their own sensor capability.
-                        Specifically, agents align their velocity according to the direction of the less covered point possible in their neighbourhood. Difficulty lies in the solutions to the dead-lock situations and the efficiency of the coverage. This work can serve as a modular for further usage in hierarchical decentralized coverage algorithms.
-                        <br>
-                        <br>
+                <!-- </p> -->
+
+                <br>
+                <h3 class="post">
+                    <center>
+                        <iframe width="480" height="360" src="https://www.youtube.com/embed/SJ7_cbu2aSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </center>
+                </h3>
+                <br>
+                <b>Brief introduction</b>
+                &nbsp &nbsp Distributed coverage algorithm can be applied in many real world situations, such as surveillance and inspection.
+                In this project, we deployed a functional-based formulation of the distributed sensor coverage problem. We describe the sensor capacity as an isotropic bell-like surface centered at the agent's position for each agent, and we use this description function method to calculate autonomously the control inputs for each agent at every time step.
+                Each agent acts according to the local information left by all the other agents, together with their own sensor capability.
+                Specifically, agents align their velocity according to the direction of the less covered point possible in their neighbourhood. Difficulty lies in the solutions to the dead-lock situations and the efficiency of the coverage. This work can serve as a modular for further usage in hierarchical decentralized coverage algorithms.
+                <br>
+                <br>
                 <b>github link: <a href="https://github.com/lucasyu17/swarm-effective-coverage-">Swarm Effective Coverage</a></b>
                         <br>
                         <br>
                 <p class="intro">
-                        <span class="color_red"> State estimation, communication, and control for swarm UAVs </span>
+                        <b class="color_red"> State estimation, communication, and control for swarm UAVs </b>
                 </p>
-                <p class="intro">
+                <!-- <p class="intro">
                     <img src="static/swarm.png" width="207" height="127" style="margin-right:10px;float:left;"></img>
                     <img src="static/swarm_frame.png" width="227" height="127" style="margin-right:10px;float:left;"></img>
-                </p>
-                        In this project we studied the nonlinear control and state estimation for UAVs and the swarm of UAVs.
-                        Using motion capture system to estimate the state of a swarm of UAVs, we apply a centralized framework to control UAVs
-                        with ROS topic mechanism. We explored several methods and compared ours with them.
-                        We deployed methods using broadcast communication techniques (without hand-shaking process) and package encoding methods to help solve
-                        the bandwidth limitation of the communication between the central node and the swarm.
-                        <br>
+                </p> -->
 
-                    </p>
+                 <br>
+                <h3 class="post">
+                    <center>
+                        <iframe width="480" height="360" src="https://www.youtube.com/embed/_4cwPoaPelc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </center>
+                </h3>
+                <br>
+                <b>Brief introduction</b>
+                    In this project we studied the nonlinear control and state estimation for UAVs and the swarm of UAVs.
+                    Using motion capture system to estimate the state of a swarm of UAVs, we apply a centralized framework to control UAVs
+                    with ROS topic mechanism. We explored several methods and compared ours with them.
+                    We deployed methods using broadcast communication techniques (without hand-shaking process) and package encoding methods to help solve
+                    the bandwidth limitation of the communication between the central node and the swarm.
+                    <br>
+                    <!-- </p> -->
                 <br>
                 <br>
                 <hr class="divider">
